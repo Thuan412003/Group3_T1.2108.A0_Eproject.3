@@ -227,7 +227,9 @@
                         <p class="para">We always bring many of today's greatest makeup services with world-famous makeup professionals. Thank you for your interest in and use of our services.</p>
                         <i class="fas fa-mobile-alt icon-mobile"> (+84) 035 102 2015</i> <br>
                         <i class="fas fa-envelope icon-mail"> beautyservice.2108A0@gmail.com</i>
-                        <input class="footer-email" type="email"> <input class="footer-submit" type="submit" value="SEND">
+                        <form action="" onsubmit="showFooter()">
+                            <input  placeholder="Your email" class="footer-email" type="email"> <input class="footer-submit" type="submit" value="SEND">
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-4 ">
@@ -307,5 +309,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/bd4baa1c90.js" crossorigin="anonymous"></script>
+<script>
+    function showFooter() {
+        if(true) {
+            alert("Thank you for subscribed!")
+        }
+    }
+</script>
 </body>
 </html>
